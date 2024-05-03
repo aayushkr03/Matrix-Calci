@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+#matrix-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#calculate-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#calculate-btn:hover {
+    background-color: #3e8e41;
+}
+
+#result-container {
+    display: none;
+}
+
+#result {
+    font-size: 14px;
+}
